@@ -1,0 +1,25 @@
+{
+  "name": "dockerizing-things-talk",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "grunt",
+    "update": "npm install && bower install",
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "grunt": "~0.4.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-sass": "0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.2.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

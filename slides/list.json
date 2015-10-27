@@ -1,3 +1,11 @@
 [
-  "intro.md"
+  "intro.md",
+  "overview.md",
+  "dependencies.md",
+  "hub.md",
+  "docker.md",
+  "dockerignore.md",
+  "dockercompose.md",
+  "dockermachine.md",
+  "orchestration.md"
 ]

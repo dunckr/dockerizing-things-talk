@@ -1,4 +1,4 @@
-# .dockerignore
+## .dockerignore
 
 Exclude files from Docker
 
@@ -11,5 +11,4 @@ VERSION
 README.md
 Changelog.md
 docker-compose.yml
-docker-compose.test.yml
 ```

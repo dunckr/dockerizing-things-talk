@@ -1,4 +1,4 @@
-### Hub
+## Hub ![](/images/hub.svg)
 
 https://hub.docker.com/
 

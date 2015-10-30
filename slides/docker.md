@@ -1,16 +1,25 @@
-### Dockerfile
+## Dockerfile ![](/images/engine.svg)
 
+```
 brew install docker
+```
 
+```
+FROM node:4.2
 
-## Tips
+RUN apt-get update
 
-Run only one process per container
-Minimize the number of layers
-Sort multi-line arguments
+RUN npm install nodemon -g
 
+ADD . /app
+RUN npm install
 
-Build cache
-During the process of building an image Docker will step through the instructions in your Dockerfile executing each in the order specified. As each instruction is examined Docker will look for an existing image in its cache that it can reuse, rather than creating a new (duplicate) image. 
+CMD npm start
+```
 
++ Order matters
++ ADD and COPY are NOT the same
 
+note:
+  other commands
+  difference between add and run

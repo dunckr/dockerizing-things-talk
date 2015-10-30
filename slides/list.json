@@ -1,11 +1,15 @@
 [
   "intro.md",
-  "overview.md",
-  "dependencies.md",
+  "why.md",
+  "virtualbox.md",
+  "boot2docker.md",
   "hub.md",
   "docker.md",
+  "dockeroptimise.md",
   "dockerignore.md",
   "dockercompose.md",
   "dockermachine.md",
-  "orchestration.md"
+  "deploy.md",
+  "orchestration.md",
+  "demo.md"
 ]

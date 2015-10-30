@@ -1,10 +1,10 @@
-## boot2docker ![](/images/boot2docker.jpg)
+## boot2docker ![](images/boot2docker.jpg)
 
 ```sh
 brew install boot2docker
 ```
 
-## Nodemon ![](/images/nodemon.svg) 
+## Nodemon ![](images/nodemon.svg) 
 
 ```js
 npm install -g nodemon

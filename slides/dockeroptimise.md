@@ -1,5 +1,6 @@
-## Docker Optimised [](/images/engine.svg)
-```
+## Docker Optimised [](images/engine.svg)
+
+```sh
 FROM node:4.2
 
 RUN apt-get update && \

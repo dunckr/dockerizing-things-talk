@@ -1,4 +1,4 @@
-## docker-machine ![](/images/machine.svg)
+## docker-machine ![](images/machine.svg)
 
 ```sh
 brew install docker-machine

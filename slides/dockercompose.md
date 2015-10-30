@@ -1,4 +1,4 @@
-## docker-compose ![](/images/compose.svg)
+## docker-compose ![](images/compose.svg)
 
 docker-compose.yml
 

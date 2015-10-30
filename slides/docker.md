@@ -1,10 +1,10 @@
-## Dockerfile ![](/images/engine.svg)
+## Dockerfile ![](images/engine.svg)
 
-```
+```sh
 brew install docker
 ```
 
-```
+```sh
 FROM node:4.2
 
 RUN apt-get update

@@ -2,7 +2,7 @@
 
 Exclude files from Docker
 
-```
+```sh
 .git
 .gitignore
 node_modules

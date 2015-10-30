@@ -1,13 +1,21 @@
-# Visual Regressions Talk
+# Dockerizing Things Talk
 
-presented @ [GlasgowJS 03/02/14](http://glasgowjs.com)
+## Install
 
-Install
+```js
+npm run update
+```
 
-```npm install && bower install```
+## Run
 
-Server
+```js
+npm start
+```
 
-```grunt server```
+## Deploy
+
+```js
+npm run gh-pages
+```
 
 [Built using Reveal.js generator](https://github.com/slara/generator-reveal)

@@ -1,11 +1,13 @@
 {
   "name": "dockerizing-things-talk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "start": "grunt",
     "update": "npm install && bower install",
-    "test": "grunt test"
+    "test": "grunt test",
+    "build": "grunt dist",
+    "gh-pages": "git checkout gh-pages && git rebase origin/master --force-rebase && npm run build && git add . && git add dist -f && git commit --amend --no-edit && git push --force && git checkout master"
   },
   "devDependencies": {
     "bower": "^1.6.5",

@@ -18,8 +18,9 @@ CMD npm start
 ```
 
 + Order matters
-+ ADD and COPY are NOT the same
++ Containers are made up of layers
++ Results are committed like version control
 
 note:
-  other commands
-  difference between add and run
+  save time reading the docs
+  best practises

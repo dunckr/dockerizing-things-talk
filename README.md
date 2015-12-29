@@ -1,5 +1,9 @@
 # Dockerizing Things Talk
 
+![Screen](https://raw.githubusercontent.com/dunckr/dockerizing-things-talk/master/images/screen.jpg)
+
+Talk about working with Docker given at [GlasgowJS 11/2015](http://glasgowjs.com/)
+
 ## Install
 
 ```js
